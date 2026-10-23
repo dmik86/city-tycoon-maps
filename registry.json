@@ -1,0 +1,80 @@
+{
+  "maps": [
+    {
+      "id": "starter map",
+      "name": "intro",
+      "levelRequired": 1,
+      "version": 2,
+      "width": 600,
+      "height": 600,
+      "entranceX": 416,
+      "entranceY": 327,
+      "file": "maps/starter map.json",
+      "description": "A coastal trading city with industrial harbor district"
+    },
+    {
+      "id": "Tel Aviv",
+      "name": "Tel Aviv",
+      "levelRequired": 1,
+      "version": 4,
+      "width": 400,
+      "height": 400,
+      "entranceX": 196,
+      "entranceY": 374,
+      "file": "maps/Tel Aviv.json",
+      "description": "Tel Aviv, officially Tel Aviv-Yafo, and also known as Tel Aviv-Jaffa, is the most populous city in the Gush Dan metropolitan area of Israel"
+    },
+    { "id": "all-sizes", "name": "all-sizes", "file": "maps/all-sizes.json", "version": 1, "hidden": true },
+    {
+      "id": "minimalistic",
+      "name": "minimalistic",
+      "levelRequired": 15,
+      "version": 2,
+      "width": 250,
+      "height": 250,
+      "entranceX": 50,
+      "entranceY": 50,
+      "file": "maps/minimalistic.json",
+      "description": "Small city with all possible companies"
+    },
+    {
+      "id": "stress-telaviv",
+      "name": "stress-telaviv",
+      "levelRequired": 1,
+      "version": 1,
+      "width": 1000,
+      "height": 1000,
+      "entranceX": 608,
+      "entranceY": 480,
+      "file": "maps/stress-telaviv.json.gz",
+      "description": "P2 stress test: Tel Aviv repeated over 1000 x 1000 tiles (2,361 buildings). Hidden, for speed testing.",
+      "hidden": true
+    },
+    {
+      "id": "stress-dense",
+      "name": "stress-dense",
+      "levelRequired": 1,
+      "version": 1,
+      "width": 1000,
+      "height": 1000,
+      "entranceX": 368,
+      "entranceY": 384,
+      "file": "maps/stress-dense.json.gz",
+      "description": "P2 stress test: the densest 1000 x 1000 map (11,685 buildings). Hidden, for speed testing.",
+      "hidden": true
+    },
+    {
+      "id": "stress-st",
+      "name": "stress-st",
+      "levelRequired": 1,
+      "version": 1,
+      "width": 1000,
+      "height": 1000,
+      "entranceX": 800,
+      "entranceY": 608,
+      "file": "maps/stress-st.json.gz",
+      "description": "P4 stress test: the starter map repeated over 1000 x 1000 tiles (3,620 buildings). Hidden, for the phone run.",
+      "hidden": true
+    }
+  ]
+}
