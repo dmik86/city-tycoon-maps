@@ -69,7 +69,7 @@ const families = [
     // one sheet at a time; a product without a picture keeps its emoji in the game.
     ['flip', '.webp', 1],
     ['flip/small', '.webp', 1],
-    ['flip/products', '.webp', 62],
+    ['flip/products', '.webp', 82],
     ['flip/products/small', '.webp', 62],
 ];
 
