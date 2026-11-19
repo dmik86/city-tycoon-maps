@@ -64,6 +64,13 @@ const families = [
     ['frames/masters', '.png', 2],
     ['frames', '.webp', 22],
     ['frames/small', '.webp', 22],
+    // QuickFlip (the daily market puzzle): the game's emblem and one picture per product a question can show, cut from the
+    // owner's 3 x 3 sheets by the game repo's scripts/quickflip/sliceSheet.py (512 px and a 128 px small). The count grows
+    // one sheet at a time; a product without a picture keeps its emoji in the game.
+    ['flip', '.webp', 1],
+    ['flip/small', '.webp', 1],
+    ['flip/products', '.webp', 62],
+    ['flip/products/small', '.webp', 62],
 ];
 
 let verified = 0;
