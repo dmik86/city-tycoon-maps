@@ -121,6 +121,7 @@ for (const file of [
     'branding/favicon-32x32.png',
     'branding/favicon.ico',
     'branding/mint-street-logo.png',
+    'branding/mint-street-wordmark.png',
 ]) { assertImage(file); verified++; }
 
 // COUNTED, never written down. The literal that used to live here said 582 while the
