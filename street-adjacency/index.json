@@ -61,9 +61,9 @@
       "file": "Tel Aviv.json",
       "maxSteps": 30,
       "metresPerCell": 7.5,
-      "claimable": 396,
-      "pairs": 3590,
-      "sha256": "0e3839a37d4da3c40356a641b626227d0d5ca1417d782e99cb1af67d23b0503f"
+      "claimable": 398,
+      "pairs": 3595,
+      "sha256": "b8eddcc2a5495efd4079f0062a59a7db761f5e730ac5cbf49afb086862cb8bc6"
     }
   ]
 }
